@@ -7,7 +7,7 @@ export default function CardUser(props) {
       <h2 className="ml-6 font-semibold">{props.username}</h2>
       <div className="mr-6">
         <Link href={`/users/${props.id}`}>
-          <a className="underline text-blue-500 hover:font-bold hover:no-underline">
+          <a>
             Contacter
           </a>
         </Link>

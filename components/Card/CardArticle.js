@@ -7,7 +7,7 @@ export default function Card(props) {
       <h2 className="font-semibold">{props.title}</h2>
       <p className="my-2 truncate ...">{props.body}</p>
       <Link idArticle={props.id} href={`/articles/${props.id}`}>
-        <a className="underline text-blue-500 hover:font-bold hover:no-underline">Lire cet article</a>
+        <a>Lire cet article</a>
       </Link>
     </div>
   );

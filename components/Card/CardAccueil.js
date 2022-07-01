@@ -8,7 +8,7 @@ export default function CardAccueil(props) {
       <span className="text-gray-500 text-sm">{props.span}</span>
       <p className="py-4">{props.description}</p>
       <Link href={props.lien}>
-        <a className="underline text-blue-500 hover:font-bold hover:no-underline">{props.titreLien}</a>
+        <a>{props.titreLien}</a>
       </Link>
     </div>
   );

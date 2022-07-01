@@ -18,3 +18,31 @@ a {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+
+  a {
+    @apply underline;
+    @apply text-blue-500;
+  }
+
+  a :hover {
+    @apply font-bold;
+    @apply no-underline;
+  }
+
+  nav {
+    @apply bg-blue-500;
+    @apply flex; 
+    @apply justify-center;
+    @apply space-x-4;
+    @apply h-12;
+    @apply pt-2;
+  }
+
+  nav a {
+    @apply text-white text-center;
+    @apply no-underline
+  }
+
+}
